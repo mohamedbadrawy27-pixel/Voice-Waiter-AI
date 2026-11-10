@@ -1,7 +1,22 @@
+ # Environment variables and secrets
 .env
+
+# Python cache
 __pycache__/
-*.pyc
-.env
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# Audio files
 *.wav
+
+# Virtual environments
 .venv/
 venv/
+
+# Build files
+build/
+dist/
+*.egg-info/
